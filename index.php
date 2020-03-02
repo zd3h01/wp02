@@ -6,6 +6,7 @@
     <article class="post">
       <p class="date"><?= get_the_date("n/j")?></p>
       <h2><?php the_title() ?></h2>
+      <h2>かきくけこ</h2>
       <div class="entry">
 		<?php the_content() ?>
       </div>
