@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+#gallery-navigation {
+  background: url(../images/film.png) repeat-x top left;
+  height: 56px;
+  padding: 12px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+#gallery-navigation a.prev {
+  display: block;
+  height: 56px;
+  width: 20px;
+  margin: 0 5px;
+  float: left;
+  background: url(../images/arrow_left.png) no-repeat center;
+}
+
+#gallery-navigation a.next {
+  display: block;
+  height: 56px;
+  width: 20px;
+  margin: 0 5px;
+  float: left;
+  background: url(../images/arrow_right.png) no-repeat center;
+}
+
+#gallery-navigation #thumb-panel {
+  width: 880px;
+  float: left;
+  overflow: hidden;
+}
+
+#gallery-navigation ul.thumbs {
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+}
+
+#gallery-navigation ul.thumbs li {
+  float: left;
+  margin-right: 5px;
+}
+
+#gallery-main, #screen {
+  height: 540px;
+}
+
+#gallery-main #caption {
+  position: relative;
+  z-index: 99;
+  height: 40px;
+  line-height: 40px;
+  bottom: 40px;
+  color: #fff;
+  text-align: right;
+  background: url(../images/black50.png);
+  padding: 0 20px;
+}
